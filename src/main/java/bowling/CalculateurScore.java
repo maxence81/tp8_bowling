@@ -9,8 +9,6 @@ public class CalculateurScore {
         
         for (int i = 0; i < Math.min(tourLimite, tours.size()); i++) {
             Tour tour = tours.get(i);
-
-            // Correction : pour le dernier tour, on additionne tous les lancers
             if (tour instanceof TourFinal) {
                 for (int j = 0; j < tour.getNumeroLancers(); j++) {
                     score += tour.getQuillesLancer(j);
