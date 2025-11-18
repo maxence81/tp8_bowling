@@ -975,7 +975,7 @@
 											"top": 544,
 											"width": 398.77587890625,
 											"height": 13,
-											"text": "+calculerScore(List<Tour> tours, int tourLimite) : int()",
+											"text": "+calculerScore(Tour[] tours, tourLimite: int) : int()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -993,7 +993,7 @@
 											"top": 559,
 											"width": 398.77587890625,
 											"height": 13,
-											"text": "+calculerBonusStrike(Tour tour, List<Tour> tours, int indexTour) : int()",
+											"text": "+calculerBonusStrike(Tour tour, Tour[] tours, indexTour : int) : int()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1011,7 +1011,7 @@
 											"top": 574,
 											"width": 398.77587890625,
 											"height": 13,
-											"text": "+calculerBonusSpare(Tour tour, List<Tour> tours, int indexTour) : int()",
+											"text": "+calculerBonusSpare(Tour tour, Tour[] tours, indexTour : int) : int()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1201,7 +1201,7 @@
 											"top": 158,
 											"width": 222.4951171875,
 											"height": 13,
-											"text": "+tours: List<Tour>",
+											"text": "+tours: Tour[]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2693,7 +2693,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGafKicaWhuSmM="
 							},
-							"name": "calculerScore(List<Tour> tours, int tourLimite) : int"
+							"name": "calculerScore(Tour[] tours, tourLimite: int) : int"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2701,7 +2701,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGafKicaWhuSmM="
 							},
-							"name": "calculerBonusStrike(Tour tour, List<Tour> tours, int indexTour) : int"
+							"name": "calculerBonusStrike(Tour tour, Tour[] tours, indexTour : int) : int"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2709,7 +2709,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGafKicaWhuSmM="
 							},
-							"name": "calculerBonusSpare(Tour tour, List<Tour> tours, int indexTour) : int"
+							"name": "calculerBonusSpare(Tour tour, Tour[] tours, indexTour : int) : int"
 						}
 					]
 				},
@@ -2815,7 +2815,7 @@
 								"$ref": "AAAAAAGafKvzXGi2j3c="
 							},
 							"name": "tours",
-							"type": "List<Tour>"
+							"type": "Tour[]"
 						},
 						{
 							"_type": "UMLAttribute",
